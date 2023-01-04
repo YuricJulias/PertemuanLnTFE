@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.kotakMerah{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+
+    animation-name: gerak;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-direction: alternate-reverse;
+
+}
+
+@keyframes warnaWarni {
+    0%{
+        background-color: aqua;
+    }
+
+    50%{
+        background-color: black;
+    }
+
+    100%{
+        background-color: red;
+    }
+}
+
+@keyframes gerak {
+    0%{
+        margin-top: 0;
+        margin-left: 0;
+    }
+    
+    33%{
+        margin-top: 0;
+        margin-left: 50px;
+    }
+
+    66%{
+        margin-top: 50px;
+        margin-left: 50px;
+    }
+
+    100%{
+        margin-top: 50px;
+        margin-left: 0;
+    }
+
+}
+
+.kotakHijau{
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    transition: all .5s;
+}
+
+.kotakHijau:hover{
+    transform: skew(30deg, 30deg);
+}
+
+.fotobangunan{
+    width: 500px;
+    height: 500px;
+    background-image: url(https://images.unsplash.com/photo-1672614600407-57fb47c1d4f8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw1NHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60);
+    /* filter: grayscale(%); */
+}
+
+.kosong{
+    width: 1000px;
+    height: 1000px;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 8px 8px rgba(0, 0, 0, 0.509);
+}
+
+.kosong img{
+    filter: drop-shadow(8px 8px rgba(0, 0, 0, 0.509));
+}

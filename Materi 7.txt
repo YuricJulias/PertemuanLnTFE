@@ -1,0 +1,37 @@
+=== Pertemuan 6 ===
+@keyframes [nama]{
+	From {}
+	to {}
+}
+
+@keyframes [nama]{
+	0% {}
+	50% {}
+	100% {}
+}
+
+animation
+animation-name
+animation-duration
+animation-delay
+animation-iteration-count
+animation-direction: normal, reverse, alternate, alternate-reverse
+
+animation-timing-function: ease, linear, ease-in, ease-out, ease-in-out, cubic-bezier(n,n,n,n)
+
+===========
+Transition
+transition-delay
+transition-duration
+transition-property
+transition-timing-function
+
+
+Transform: scale, skewX & skewY, translate, rotate
+
+Filter: blur, brightness, constrast, drop-shadow, grayscale
+
+==============
+Materi 7 
+Git
+
